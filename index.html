@@ -583,15 +583,15 @@ https://www.tooplate.com/view/2083-steak-house
                 <h4>we are always ready to serve you!</h4>
             </div>
         <div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
-          <form id="contact-form" method="post" action="javascript:void(0);">
+          <form id="contact-form" method="post" action="javascript:;" onsubmit="send()"">
             <input name="Name" type="text" class="form-control" placeholder="Your Name" id="lname" required>
             <input name="Gender" type="text" class="form-control" placeholder="Gender" id="lcode" required>
             <input name="Whatsapp" type="text" class="form-control" placeholder="Whatsapp Number" id="lphone" required>
             <input name="bilOrder" type="number" class="form-control" placeholder="Bilangan Order" id="lorder" required>
             <input name="location" type="text" class="form-control" placeholder="Location(e.g Perindu Melati ...)" id="llocation" required>
             <textarea name="message" class="form-control" placeholder="Desription your order(eg : chocoLazz + kerepek + anything)" rows="5" id="ldescription" required></textarea>
-            <button name="submit" type="submit" id="contact-submit" onclick="send()">Submit</button>
-    <!--    <input type="submit" class="form-control submit" value="SEND MESSAGE"> -->
+            <input type="checkbox" name="checkbox3" value="yes" required>By checking the box, I certify that have read the Privacy Policy and agree to the rules. </input>
+            <input type="submit" class="form-control submit" value="OrderNow!">
           </form>
         </div>
       </div>
