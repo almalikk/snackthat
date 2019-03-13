@@ -19,7 +19,7 @@ function send() {
     mm = '0' + mm;
   } 
   var today = dd + mm + yyyy;
-  url = ("https://api.telegram.org/bot656012095:AAFp8_t_Ojw5lvnXWvmRZgJkOue2UmAykOc/sendMessage?chat_id=211150896&text="+"Nama : "+nameCust.value+"%0D%0AGender : "+tudungCode.value+"%0D%0ANoPhone : "+phoneCust.value+"%0D%0ABilanganOrder : "+bilOrder.value+"%0D%0ALocation : "+locationCust.value+"%0D%0ADescription : "+descriptionCust.value+"%0D%0AReceiptID : "+today+time+val);
+  url = ("https://api.telegram.org/bot656012095:AAFp8_t_Ojw5lvnXWvmRZgJkOue2UmAykOc/sendMessage?chat_id=211150896&text="+"Nama : "+nameCust.value+"%0D%0AGender : "+tudungCode.value+"%0D%0ANoPhone : "+phoneCust.value+"%0D%0ABilanganOrder : "+bilOrder.value+"%0D%0ALocation : "+locationCust.value+"%0D%0AReceiptID : "+today+time+val+"%0D%0ADescription : "+descriptionCust.value);
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
 
