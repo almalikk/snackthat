@@ -252,7 +252,7 @@ https://www.tooplate.com/view/2083-steak-house
             </div>
         <div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
           <form id="contact-form" method="post" action="javascript:;" onsubmit="send()">
-            <input name="Name" type="text" class="form-control" placeholder="Your Name" id="lname" required>
+            <input name="Name" type="text" class="form-control" placeholder="Your Name/Nickname" id="lname" required>
             <input name="Gender" type="text" class="form-control" placeholder="Gender" id="lcode" required>
             <input name="Whatsapp" type="text" class="form-control" placeholder="Whatsapp Number" id="lphone" required>
             <input name="bilOrder" type="number" class="form-control" placeholder="Bilangan Order" id="lorder" required>
@@ -465,6 +465,12 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+function reloadpage() {
+  location.reload();
 }
 </script>
 
