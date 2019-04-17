@@ -783,3 +783,31 @@ footer strong {
   footer {text-align: center;}
 
 }
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mySlides {display:none;}
+
+#slideshow {
+  margin: 80px auto;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
