@@ -5,6 +5,36 @@ Tooplate 2083 Steak House
 https://www.tooplate.com/view/2083-steak-house
 
 */
+@keyframes bgcolor {
+    0% {
+        background-color: #ffaaaa
+    }
+
+    30% {
+        background-color: #f4b79f
+    }
+
+    60% {
+        background-color: #f4d19f
+    }
+
+    90% {
+        background-color: #d6f49f
+    }
+
+    100% {
+        background-color: #9ff4d9
+    }
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
 
 
 html,body {
