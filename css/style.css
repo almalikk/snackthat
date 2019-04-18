@@ -7,23 +7,23 @@ https://www.tooplate.com/view/2083-steak-house
 */
 @keyframes bgcolor {
     0% {
-        background-color: #ffaaaa
+        background-color: #a6e0cc
     }
 
     30% {
-        background-color: #f4b79f
+        background-color: #edebeb
     }
 
     60% {
-        background-color: #f4d19f
+        background-color: #e4d9d9
     }
 
     90% {
-        background-color: #d6f49f
+        background-color: #efb6b6
     }
 
     100% {
-        background-color: #9ff4d9
+        background-color: #aaaaaa
     }
 }
 
